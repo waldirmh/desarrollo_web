@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Black.eot');
+    src: local('Creata Black'), local('Creata-Black'),
+        url('Creata-Black.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Black.woff2') format('woff2'),
+        url('Creata-Black.woff') format('woff'),
+        url('Creata-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Medium.eot');
+    src: local('Creata Medium'), local('Creata-Medium'),
+        url('Creata-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Medium.woff2') format('woff2'),
+        url('Creata-Medium.woff') format('woff'),
+        url('Creata-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-ExtraLight.eot');
+    src: local('Creata ExtraLight'), local('Creata-ExtraLight'),
+        url('Creata-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Creata-ExtraLight.woff2') format('woff2'),
+        url('Creata-ExtraLight.woff') format('woff'),
+        url('Creata-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Bold.eot');
+    src: local('Creata Bold'), local('Creata-Bold'),
+        url('Creata-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Bold.woff2') format('woff2'),
+        url('Creata-Bold.woff') format('woff'),
+        url('Creata-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-ExtraLightItalic.eot');
+    src: local('Creata ExtraLight Italic'), local('Creata-ExtraLightItalic'),
+        url('Creata-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-ExtraLightItalic.woff2') format('woff2'),
+        url('Creata-ExtraLightItalic.woff') format('woff'),
+        url('Creata-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Italic.eot');
+    src: local('Creata Italic'), local('Creata-Italic'),
+        url('Creata-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Italic.woff2') format('woff2'),
+        url('Creata-Italic.woff') format('woff'),
+        url('Creata-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-BlackItalic.eot');
+    src: local('Creata Black Italic'), local('Creata-BlackItalic'),
+        url('Creata-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-BlackItalic.woff2') format('woff2'),
+        url('Creata-BlackItalic.woff') format('woff'),
+        url('Creata-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Light.eot');
+    src: local('Creata Light'), local('Creata-Light'),
+        url('Creata-Light.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Light.woff2') format('woff2'),
+        url('Creata-Light.woff') format('woff'),
+        url('Creata-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-LightItalic.eot');
+    src: local('Creata Light Italic'), local('Creata-LightItalic'),
+        url('Creata-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-LightItalic.woff2') format('woff2'),
+        url('Creata-LightItalic.woff') format('woff'),
+        url('Creata-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-MediumItalic.eot');
+    src: local('Creata Medium Italic'), local('Creata-MediumItalic'),
+        url('Creata-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-MediumItalic.woff2') format('woff2'),
+        url('Creata-MediumItalic.woff') format('woff'),
+        url('Creata-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Regular.eot');
+    src: local('Creata'), local('Creata-Regular'),
+        url('Creata-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Regular.woff2') format('woff2'),
+        url('Creata-Regular.woff') format('woff'),
+        url('Creata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-Thin.eot');
+    src: local('Creata Thin'), local('Creata-Thin'),
+        url('Creata-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Creata-Thin.woff2') format('woff2'),
+        url('Creata-Thin.woff') format('woff'),
+        url('Creata-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-ThinItalic.eot');
+    src: local('Creata Thin Italic'), local('Creata-ThinItalic'),
+        url('Creata-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-ThinItalic.woff2') format('woff2'),
+        url('Creata-ThinItalic.woff') format('woff'),
+        url('Creata-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Creata';
+    src: url('Creata-BoldItalic.eot');
+    src: local('Creata Bold Italic'), local('Creata-BoldItalic'),
+        url('Creata-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Creata-BoldItalic.woff2') format('woff2'),
+        url('Creata-BoldItalic.woff') format('woff'),
+        url('Creata-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+

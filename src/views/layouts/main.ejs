@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Venta de repuestos , autopartes, acccesorios y suministros  para todo tipo de vehiculos automotores. Mantenimiento y reparcaion de vehiculos automotores NCP" />
+  <meta name="autor" content="Henry Paqui Tineo" />
+  <title>Multiservicios Automotriz "Cars Center"</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+
+</head>
+
+<body class="d-flex flex-column">
+  <!-- START OF HEADER -->
+  <header class="container text-light mt-3 border-bottom">
+    <div class="row align-items-start">
+      <div class="col-md-2">
+        <span>Asc. Wari Sur Mz "F"Lt.9 San Juan Bautista-Huamanga-Ayacucho</span>
+      </div>
+      <div class="col-md-8 header-main mt-1">
+        <div class="row">
+          <div class="col-md-2 text-center pt-2">
+            <img src="/img/LOGOPRO.png" alt="Logo" class="mx-auto logo" />
+          </div>
+          <div class="col-md-8 mt-0 p-0">
+            <h1 class="text-center">Multiservicios Automotriz <br> "Cars Center"</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-1">
+            <p class="text-center">
+              Venta de repuestos, autopartes, accesorios y suministros para
+              todo tipo de vehículos automotores. Mantenimiento y reparación
+              de vehículos automotores NCP
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="text-end">RUC: 10707965075</div>
+        <div class="text-end">Henry Paqui Tineo</div>
+        <div class="text-end">Cel : 921606968</div>
+      </div>
+    </div>
+  </header>
+  <!-- END OF HEADER -->
+
+  <div class="container">
+    <% if (signupMessage.length> 0) { %>
+      <div class="alert alert-danger">
+        <%= signupMessage %>
+      </div>
+      <% } %>
+        <% if (signinMessage.length> 0) { %>
+          <div class="alert alert-danger">
+            <%= signinMessage %>
+          </div>
+          <% } %>
+            <%- body %>
+  </div>
+
+  <!-- FOOTER  -->
+  <footer class="footer mt-auto mb-3">
+    <div class="container d-flex justify-content align-items-center border-top pt-3">
+      <ul class="list-group list-group-horizontal ms-auto align-items-center">
+        <li class="list-group me-3 d-flex align-items-center">
+          <img src="/img/ford.png" alt="" class="img img-fluid custom-img-size " />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/nissan.png" alt="" class="img img-fluid custom-img-size " />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/hyundai.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/volkswagen.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+
+        <li class="list-group me-3">
+          <img src="/img/toyota.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/susuki.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/nissan.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/mitsubishi.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/kia.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+        <li class="list-group me-3">
+          <img src="/img/isuzu.png" alt="" class="img img-fluid custom-img-size" />
+        </li>
+      </ul>
+      <p class="text-end text-light w-100">
+        2023 &copy;Todos los Derechos Reservados
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

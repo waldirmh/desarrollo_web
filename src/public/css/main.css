@@ -1,0 +1,222 @@
+:root {
+  --primary-color: #d42b2e;
+}
+
+@font-face {
+  font-family: "Creata";
+  src: url("/fonts/Creata-Regular.ttf");
+}
+
+body {
+  font-family: "Creata", sans-serif !important;
+  background: #000000 url("/img/fondo.png") !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.container-home {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.btn {
+  border-radius: 0 !important;
+  height: 50px;
+  outline: none;
+}
+
+.card-home {
+  width: 250px;
+  height: 250px;
+  background: rgba(239, 239, 239, 0.6);
+  box-shadow: 0px 3px 20px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-home-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.card-home span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.18em;
+  margin-top: 20px;
+}
+
+/* HEADER */
+
+.header-main h1 {
+  font-size: 32px;
+}
+
+.header-main p {
+  font-size: 15px;
+}
+
+.header-main span {
+  font-size: 15px;
+}
+
+.header-main .logo {
+  width: 90px !important;
+  height: 70px !important;
+}
+
+/* SIGNIN */
+
+.signin-title {
+  font-family: "Creata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 74px;
+  color: #ffffff;
+  letter-spacing: 0.26em;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  height: 45px !important;
+  transition: all 0.5s;
+}
+
+.form-control:focus {
+  border: 1px solid var(--primary-color) !important;
+  outline: none !important;
+}
+
+.form-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #999999;
+  width: 100%;
+}
+
+.signin-title {
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 10px !important;
+  height: 45px !important;
+  outline: none;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+
+.btn.btn-primary:active {
+  background-color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  outline: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  filter: brightness(120%);
+  outline: none;
+}
+.button-small:hover {
+  background-color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  filter: brightness(120%);
+  outline: none;
+}
+.exit:hover {
+  background-color: var(--primary-color) !important;
+}
+.text-danger:hover {
+  color: white !important;
+}
+.btn.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  outline: none;
+}
+
+.btn.btn-outline-primary:hover {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: #ffffff;
+  outline: none;
+}
+
+.btn.btn-outline-primary:active {
+  background: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  outline: none;
+}
+
+.btn:focus-within {
+  border: none;
+  outline: none;
+}
+
+/* FOOOTER */
+
+.img-fluid {
+  width: 50px;
+  height: 50px;
+  background: none;
+}
+
+/* VENTAS */
+
+.card-home-venta {
+  margin-top: 40px;
+  width: 100%;
+  background: rgba(239, 239, 239, 0.6);
+  box-shadow: 0px 3px 20px #000000;
+}
+
+.input-form {
+  height: 40px;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.input-form:focus {
+  border: none;
+  outline: none;
+}
+
+/*     CORRELATIVOS */
+.correlative {
+  background-color: var(--bs-secondary-bg) !important;
+  opacity: 1 !important;
+  font-size: 30px !important;
+  color: green !important;
+  text-align: center !important;
+}
+
+.btn.disabled {
+  background-color: #ccc !important;
+  border: none !important;
+}
+
+.button-small {
+  height: 27px !important;
+}
+
+/*   REPORTES  */
